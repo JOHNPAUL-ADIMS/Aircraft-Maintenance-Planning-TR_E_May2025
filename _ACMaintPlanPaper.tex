@@ -1,0 +1,84 @@
+\documentclass{_main_paper}
+
+\journal{Transportation Research Part E}
+
+\setlength{\parindent}{14pt}
+\setlength{\parskip}{0em}
+
+\begin{document}
+\begin{frontmatter}
+
+
+\title{Optimization Model for Large-Scale Long-term Aircraft Maintenance Scheduling and Station Assignment at American Airlines}
+
+% Authors
+% \author[1]{JohnPaul Adimonyemma}
+% \ead{johnpaul1.adimonyemm@famu.edu}
+% \author[1]{Yanshuo Sun\texorpdfstring{\corref{cor1}}{}}
+% \ead{y.sun@eng.famu.fsu.edu}
+% \texorpdfstring{\cortext[cor1]{Corresponding author}}{Corresponding author}
+% \address[1]{Department of Industrial and Manufacturing Engineering, FAMU-FSU College of Engineering, Florida Agricultural and Mechanical University, Tallahassee, FL, US}
+
+\address{[Blinded Manuscript]}
+
+
+% \input{sections/0_abstract}
+
+\begin{abstract}
+The primary focus of the existing aircraft maintenance optimization literature is on short-term aircraft maintenance routing. By contrast, only a few studies address long-term maintenance planning, which predominantly emphasize scheduling decisions: none of them have examined the critical aspect of assigning aircraft to maintenance stations, a key challenge for major airlines with a network of maintenance facilities. Additional research gaps include (1) insufficient consideration of practical maintenance-related constraints (e.g., station access limit and aircraft rotation requirement) and (2) the absence of scalable algorithms capable of solving real-world problem instances involving hundreds of aircraft and dozens of maintenance stations. To fill those gaps, this study introduces a joint optimization model for aircraft maintenance scheduling and station assignment to assist a U.S.-based airline in creating long-term plans for a fleet of over 800 aircraft of multiple subfleet types. To address the computational challenges, we propose two decomposition approaches: one based on decision types and the other on time horizons. Extensive computational experiments using real-world data demonstrate that these approaches can reduce computation time by up to 80\% with a minimal increase in the optimization objective (less than 2\%). The proposed model is expected to streamline maintenance planning efforts and enhance outcomes for aircraft maintenance professionals.
+\end{abstract}
+
+
+
+\begin{keyword}
+Aircraft maintenance, Scheduling and assignment, OR in airlines, Decomposition approaches, Case studies
+\end{keyword}
+
+\end{frontmatter}
+
+\clearpage
+
+\newpage
+
+\input{1_introduction}
+\input{2_literature_review}
+\input{3_formulation}
+\input{4_Solution_Methodology}
+\input{5_results}
+\input{6_conculsion}
+
+\section*{Acknowledgments} 
+% \noindent \textcolor{myblue}{We greatly appreciate the constructive comments from the handling editor and three anonymous reviewers.} 
+% This research was partially supported by the National Science Foundation (NSF). The views expressed in this article are solely those of the authors and do not necessarily reflect the views of the NSF. 
+We gratefully acknowledge the data support provided by American Airlines and the valuable feedback from the following experts:
+Dr. Patrice Yapo, Principal Operations Research Consultant, Operations Research \& Advanced Analytics (ORAA),
+Dr. Irandokht Parviziomran, Consultant, ORAA,
+Dr. Jose A. Ramirez-Hernandez, Senior Lead Consultant, ORAA, 
+Mr. Larry Richardson, Senior Manage, Line Maintenance Capacity and Schedule, and 
+Dr. Tuell Green, Managing Director, ORAA.
+
+% \section*{Research Data}
+% \noindent The data used in this article are proprietary to the industry and require authorization for release.
+
+
+
+% \section*{CRediT authorship contribution statement}
+% \noindent \textbf{JohnPaul Adimonyemma}: Conceptualization, Methodology, Visualization, Writing – original draft, Investigation, Formal analysis.  \textbf{Yanshuo Sun}: Conceptualization, Formal analysis, Project administration, Methodology, Writing - original draft, review, and editing.
+
+% \section*{Data availability} 
+
+% \noindent Data will be made available upon request.
+
+
+\appendix
+
+
+\renewcommand{\theequation}{A-\arabic{equation}}
+\newpage
+\bibliography{_mybibfile}
+% \bibliography{reference}
+ 
+
+\end{document}
+
+

@@ -1,0 +1,2296 @@
+@preamble{ " \newcommand{\noop}[1]{} " }
+@Preamble{"\ifx \manfnt \undefined \font\manfnt=logo10 \fi"
+ # "\ifx \METAFONT \undefined \def \METAFONT {{\manfnt META}\-{\manfnt FONT}\spacefactor1000 } \fi"
+ # "\ifx \MF \undefined \let \MF=\METAFONT \fi"
+ # "\ifx \POSTSCRIPT \undefined \def \POSTSCRIPT {{\scshape Post}\-{\scshape Script}\spacefactor1000 } \fi"
+ # "\ifx \MP \undefined \def \MP {{\manfnt META}\-{\manfnt POST}\spacefactor1000 } \fi"
+ # "\ifx \noopsort \undefined \def \noopsort#1{} \fi"
+ # "\ifx \emdash \undefined \def \emdash{---} \fi"
+}
+
+
+
+
+@String{j-CJ                    = "The Computer Journal"}                  
+
+@String{pub-APA                 = "American Psychological Association"}
+@String{pub-APA:adr             = "Washington, DC, USA"}
+
+@String{pub-AW                  = "Ad{\-d}i{\-s}on-Wes{\-l}ey"}
+@String{pub-AW:adr              = "Reading, MA, USA"}
+
+@String{pub-MLAA                = "Modern Language Association of America"}
+@String{pub-MLAA:adr            = "New York, NY, USA"}
+
+@String{pub-U-CHICAGO-PRESS     = "University of Chicago Press"}
+@String{pub-U-CHICAGO-PRESS:adr = "Chicago, IL, USA"}
+
+@String{ack-nhfb = "Nelson H. F. Beebe,
+                    University of Utah,
+                    Department of Mathematics, 110 LCB,
+                    155 S 1400 E RM 233,
+                    Salt Lake City, UT 84112-0090, USA,
+                    Tel: +1 801 581 5254,
+                    FAX: +1 801 581 4148,
+                    e-mail: \path|beebe@math.utah.edu|,
+                            \path|beebe@acm.org|,
+                            \path|beebe@computer.org| (Internet),
+                    URL: \path|http://www.math.utah.edu/~beebe/|"}
+ 
+
+
+
+@inproceedings{gupta2003simulation,
+  title={Simulation model for aircraft line maintenance planning},
+  author={Gupta, Payal and Bazargan, Massoud and McGrath, RN},
+  booktitle={Annual Reliability and Maintainability Symposium, 2003.},
+  pages={387--391},
+  year={2003},
+  doi={10.1109/RAMS.2003.1182020},
+  organization={IEEE}
+}
+
+@article{chen2024advancing,
+  title={Advancing a major {US} airline's practice in flight-level checked baggage prediction},
+  author={Chen, Shijie and Park, Chiwoo and Guo, Qianwen and Sun, Yanshuo},
+  journal={Intelligent Transportation Infrastructure},
+  volume={3},
+  pages={liae001},
+  year={2024},
+  publisher={Oxford University Press}
+}
+
+@article{lam1995introduction,
+  title={An introduction to airline maintenance},
+  author={Lam, Michael},
+  journal=  { Handbook of Airline Economics Executive Editor, Darryl Jenkins ; Senior Editor, Cecilia Preble Ray; Complied by Aviation Daily, --1st Edition},
+  year={1995}
+}
+
+
+@article{sriram2003optimization,
+  title={An optimization model for aircraft maintenance scheduling and re-assignment},
+  author={Sriram, Chellappan and Haghani, Ali},
+  journal={Transportation Research Part A: Policy and Practice},
+  volume={37},
+  number={1},
+  pages={29--48},
+  year={2003},
+  publisher={Elsevier}
+}
+
+@article{papakostas2010approach,
+  title={An approach to operational aircraft maintenance planning},
+  author={Papakostas, Nikolaos and Papachatzakis, Poluzois and Xanthakis, Vangelis and Mourtzis, Dimitris and Chryssolouris, George},
+  journal={Decision Support Systems},
+  volume={48},
+  number={4},
+  pages={604--612},
+  year={2010},
+  publisher={Elsevier}
+}
+
+@article{shaukat2020aircraft,
+  title={Aircraft line maintenance scheduling and optimization},
+  author={Shaukat, Syed and Katscher, Mathias and Wu, Cheng-Lung and Delgado, Felipe and Larrain, Homero},
+  journal={Journal of Air Transport Management},
+  volume={89},
+  pages={101914},
+  year={2020},
+  publisher={Elsevier}
+}
+
+
+@article{sarac2006branch,
+  title={A branch-and-price approach for operational aircraft maintenance routing},
+  author={Sarac, Abdulkadir and Batta, Rajan and Rump, Christopher M},
+  journal={European Journal of Operational Research},
+  volume={175},
+  number={3},
+  pages={1850--1869},
+  year={2006},
+  publisher={Elsevier}
+}
+
+@book{hessburg2001air,
+  title={Air carrier MRO handbook},
+  author={Hessburg, Jack},
+  year={2001},
+  publisher={McGraw Hill Professional}
+}
+
+@article{obadimu2020development,
+  title={Development of the minimum equipment list: Current practice and the need for standardization },
+  author={Obadimu, Solomon O and Karanikas, Nektarios and Kourousis, Kyriakos I},
+  journal={Aerospace},
+  volume={7},
+  number={1},
+  pages={7},
+  year={2020},
+  publisher={MDPI}
+}
+
+@misc{nationalnata,
+  title={NATA aircraft maintenance \& system technology committee best practices: Minimum Equipment List (MEL)},
+  author={National Air Transport Association and others},
+  url={\url{https://www.nata.aero/assets/Site_18/files/committee_mtgmemos/bestpracticemineqlistbp.pdf}},
+   year={2023},  
+    month={Dec},
+  publisher={Obtido de National Air Transportation Association: NATA: http://nata. aero~…},
+note = {Accessed: November 11, 2024}
+}
+
+
+
+@article{lagos2020dynamic,
+  title={Dynamic optimization for airline maintenance operations},
+  author={Lagos, Carlos and Delgado, Felipe and Klapp, Mathias A},
+  journal={Transportation Science},
+  volume={54},
+  number={4},
+  pages={998--1015},
+  year={2020},
+  publisher={INFORMS}
+}
+
+
+
+@misc{naatypesofaviationmaint,
+  author = {{National Aviation Academy}},
+  title = {The Different Types of Aviation Maintenance Checks},
+  year = 2020,
+  howpublished = {\url{https://www.naa.edu/types-of-aviation-maintenance-checks/}},
+  note = "[Online; accessed November 11, 2024]"
+}
+
+
+
+
+@article{lapp2012modifying,
+  title={Modifying lines-of-flight in the planning process for improved maintenance robustness},
+  author={Lapp, Marcial and Cohn, Amy},
+  journal={Computers \& Operations Research},
+  volume={39},
+  number={9},
+  pages={2051--2062},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{liang2015robust,
+  title={Robust weekly aircraft maintenance routing problem and the extension to the tail assignment problem},
+  author={Liang, Zhe and Feng, Yuan and Zhang, Xiaoning and Wu, Tao and Chaovalitwongse, Wanpracha Art},
+  journal={Transportation Research Part B: Methodological},
+  volume={78},
+  pages={238--259},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{qin2019mathematical,
+  title={A mathematical model and algorithms for the aircraft hangar maintenance scheduling problem},
+  author={Qin, Yichen and Wang, ZX and Chan, Felix TS and Chung, SH and Qu, T},
+  journal={Applied Mathematical Modelling},
+  volume={67},
+  pages={491--509},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+@article{van2013aircraft,
+  title={Aircraft maintenance operations: state of the art},
+  author={Van den Bergh, Jorne and De Bruecker, Philippe and Beli{\"e}n, Jeroen and Peeters, Jonas},
+  journal={HUB Research Paper 2013/09},
+  year={2013},
+  publisher={HUBrussel; Brussel}
+}
+
+@article{gopalan1998aircraft,
+  title={The aircraft maintenance routing problem},
+  author={Gopalan, Ram and Talluri, Kalyan T},
+  journal={Operations Research},
+  volume={46},
+  number={2},
+  pages={260--271},
+  year={1998},
+  publisher={INFORMS}
+}
+
+@article{deng2020practical,
+  title={A practical dynamic programming based methodology for aircraft maintenance check scheduling optimization},
+  author={Deng, Qichen and Santos, Bruno F and Curran, Richard},
+  journal={European Journal of Operational Research},
+  volume={281},
+  number={2},
+  pages={256--273},
+  year={2020},
+  publisher={Elsevier}
+}
+
+
+@article{boere1977air,
+  title={Air Canada saves with aircraft maintenance scheduling},
+  author={Boere, NJ},
+  journal={Interfaces},
+  volume={7},
+  number={3},
+  pages={1--13},
+  year={1977},
+  publisher={INFORMS}
+}
+
+@article{yang2012optimization,
+  title={Optimization of aircraft maintenance plan based on genetic algorithm},
+  author={Yang, Zhixian and Yang, Guobin},
+  journal={Physics Procedia},
+  volume={33},
+  pages={580--586},
+  year={2012},
+  publisher={Elsevier}
+}
+
+
+@article{van2022robust,
+  title={Robust long-term aircraft heavy maintenance check scheduling optimization under uncertainty},
+  author={van der Weide, Tim and Deng, Qichen and Santos, Bruno F},
+  journal={Computers \& Operations Research},
+  volume={141},
+  pages={105667},
+  year={2022},
+  publisher={Elsevier}
+}
+
+
+@article{andrade2021aircraft,
+  title={Aircraft maintenance check scheduling using reinforcement learning},
+  author={Andrade, Pedro and Silva, Catarina and Ribeiro, Bernardete and Santos, Bruno F},
+  journal={Aerospace},
+  volume={8},
+  number={4},
+  pages={113},
+  year={2021},
+  publisher={MDPI}
+}
+
+@article{tseremoglou2023comparative,
+  title={A Comparative Study of Optimization Models for Condition-Based Maintenance Scheduling of an aircraft fleet},
+  author={Tseremoglou, Iordanis and van Kessel, Paul J and Santos, Bruno F},
+  journal={Aerospace},
+  volume={10},
+  number={2},
+  pages={120},
+  year={2023},
+  publisher={MDPI}
+}
+
+@article{tseremoglou2024condition,
+  title={Condition-Based Maintenance scheduling of an aircraft fleet under partial observability: a Deep Reinforcement Learning approach},
+  author={Tseremoglou, Iordanis and Santos, Bruno F},
+  journal={Reliability Engineering \& System Safety},
+  volume={241},
+  pages={109582},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@inproceedings{steiner2006heuristic,
+  title={A heuristic method for aircraft maintenance scheduling under various constraints},
+  author={Steiner, Albert},
+  booktitle={Proceedings of the 6th Swiss Transport Research Conference. Ancona, Italy},
+  year={2006}
+}
+
+
+@inproceedings{dinis2015optimization,
+  title={On the optimization of aircraft maintenance management},
+  author={Dinis, Duarte and Barbosa-P{\'o}voa, Ana Paula},
+  booktitle={Operations Research and Big Data: IO2015-XVII Congress of Portuguese Association of Operational Research (APDIO)},
+  pages={49--57},
+  year={2015},
+  organization={Springer}
+}
+
+
+@inproceedings{li2016maintenance,
+  title={Maintenance scheduling optimization based on reliability and prognostics information},
+  author={Li, Zhaojun and Guo, Jian and Zhou, Ruolin},
+  booktitle={2016 Annual reliability and maintainability symposium (RAMS)},
+  pages={1--5},
+  year={2016},
+  organization={IEEE}
+}
+
+
+
+
+@article{dinis_supporting_2019,
+  title={A supporting framework for maintenance capacity planning and scheduling: Development and application in the aircraft MRO industry},
+  author={Dinis, Duarte and Barbosa-P{\'o}voa, Ana and Teixeira, {\^A}ngelo Palos},
+  journal={International Journal of Production Economics},
+  volume={218},
+  pages={1--15},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+@article{ertogral2019integrated,
+  title={An integrated production scheduling and workforce capacity planning model for the maintenance and repair operations in airline industry},
+  author={Ertogral, Kadir and {\"O}zt{\"u}rk, Fatma Sedanur},
+  journal={Computers \& industrial engineering},
+  volume={127},
+  pages={832--840},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+@article{kowalski2021planning,
+  title={Planning and management of aircraft maintenance using a genetic algorithm},
+  author={Kowalski, Miros{\l}aw and Izdebski, Mariusz and {\.Z}ak, Jolanta and Go{\l}da, Pawe{\l} and Manerowski, Jerzy},
+  journal={Eksploatacja i Niezawodno{\'s}{\'c}},
+  volume={23},
+  number={1},
+  pages={143--153},
+  year={2021},
+  publisher={Polska Akademia Nauk. Polskie Naukowo-Techniczne Towarzystwo Eksploatacyjne PAN}
+}
+
+
+@article{latorella2017review,
+  title={A review of human error in aviation maintenance and inspection},
+  author={Latorella, Kara A and Prabhu, Prasad V},
+  journal={Human Error in Aviation},
+  pages={521--549},
+  year={2017},
+  publisher={Routledge}
+}
+
+
+@article{hassan2021airline,
+  title={Airline disruption management: A literature review and practical challenges},
+  author={Hassan, LK and Santos, Bruno Filipe and Vink, Jeroen},
+  journal={Computers \& Operations Research},
+  volume={127},
+  pages={105137},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+@article{clarke1998irregular,
+  title={Irregular airline operations: a review of the state-of-the-practice in airline operations control centers},
+  author={Clarke, Michael Dudley Delano},
+  journal={Journal of Air Transport Management},
+  volume={4},
+  number={2},
+  pages={67--76},
+  year={1998},
+  publisher={Elsevier}
+}
+
+@article{safaei2011workforce,
+  title={Workforce-constrained maintenance scheduling for military aircraft fleet: a case study},
+  author={Safaei, Nima and Banjevic, Dragan and Jardine, Andrew KS},
+  journal={Annals of Operations Research},
+  volume={186},
+  pages={295--316},
+  year={2011},
+  publisher={Springer}
+}
+
+
+
+@article{mattila2014maintenance,
+  title={Maintenance scheduling of a fleet of fighter aircraft through multi-objective simulation-optimization},
+  author={Mattila, Ville and Virtanen, Kai},
+  journal={Simulation},
+  volume={90},
+  number={9},
+  pages={1023--1040},
+  year={2014},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+
+@article{zhang2023baseline,
+  title={A baseline-reactive scheduling method for carrier-based aircraft maintenance tasks},
+  author={Zhang, Yong and Li, Changjiu and Su, Xichao and Cui, Rongwei and Wan, Bing},
+  journal={Complex \& Intelligent Systems},
+  volume={9},
+  number={1},
+  pages={367--397},
+  year={2023},
+  publisher={Springer}
+}
+
+
+
+
+
+@article{samaranayake2002development,
+  title={Development of engineering structures for scheduling and control of aircraft maintenance},
+  author={Samaranayake, Premaratne and Lewis, Geoff S and Woxvold, Eric Robert Arnold and Toncich, D},
+  journal={International Journal of Operations \& Production Management},
+  volume={22},
+  number={8},
+  pages={843--867},
+  year={2002},
+  publisher={MCB UP Ltd}
+}
+
+
+@inproceedings{rupp2010workshop,
+  title={Workshop scheduling in the MRO context},
+  author={Rupp, Benjamin and Pauli, Dirk and Feller, Sebastian and Skytt{\"a}, Manu},
+  booktitle={AIP Conference Proceedings, Vol. 1281, No. 1},
+  pages={2000--2003},
+  year={2010},
+  organization={American Institute of Physics}
+}
+
+
+@inproceedings{senturk2010optimization,
+  title={Optimization of aircraft utilization by reducing scheduled maintenance downtime},
+  author={Senturk, Caner and Kavsaoglu, Mehmet Serif and Nikbay, Melike},
+  booktitle={10th AIAA Aviation Technology, Integration, and Operations (ATIO) Conference},
+  pages={9143},
+  year={2010}
+}
+
+
+@article{eltoukhy2017airline,
+  title={Airline schedule planning: a review and future directions},
+  author={Eltoukhy, Abdelrahman EE and Chan, Felix TS and Chung, Sai Ho},
+  journal={Industrial Management \& Data Systems},
+  volume={117},
+  number={6},
+  pages={1201--1243},
+  year={2017},
+  publisher={Emerald Publishing Limited}
+}
+
+
+
+
+@article{haouari2013lifted,
+  title={A lifted compact formulation for the daily aircraft maintenance routing problem},
+  author={Haouari, Mohamed and Shao, Shengzhi and Sherali, Hanif D},
+  journal={Transportation Science},
+  volume={47},
+  number={4},
+  pages={508--525},
+  year={2013},
+  publisher={INFORMS}
+}
+
+
+
+@article{safaei2018aircraft,
+  title={Aircraft routing with generalized maintenance constraints},
+  author={Safaei, Nima and Jardine, Andrew KS},
+  journal={Omega},
+  volume={80},
+  pages={111--122},
+  year={2018},
+  publisher={Elsevier}
+}
+
+
+@article{yang2003airline,
+  title={An airline maintenance manpower planning model with flexible strategies},
+  author={Yang, Ta-Hui and Yan, Shangyao and Chen, Hsuan-Hung},
+  journal={Journal of Air Transport Management},
+  volume={9},
+  number={4},
+  pages={233--239},
+  year={2003},
+  publisher={Elsevier}
+}
+
+
+@article{dijkstra1991dss,
+  title={A DSS for capacity planning of aircraft maintenance personnel},
+  author={Dijkstra, Matthijs C and Kroon, Leo G and van Nunen, Jo AEE and Salomon, Marc},
+  journal={International Journal of Production Economics},
+  volume={23},
+  number={1-3},
+  pages={69--78},
+  year={1991},
+  publisher={Elsevier}
+}
+
+}
+
+@article{witteman2021bin,
+  title={A bin packing approach to solve the aircraft maintenance task allocation problem},
+  author={Witteman, Max and Deng, Qichen and Santos, Bruno F},
+  journal={European Journal of Operational Research},
+  volume={294},
+  number={1},
+  pages={365--376},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{rosenberger2003rerouting,
+  title={Rerouting aircraft for airline recovery},
+  author={Rosenberger, Jay M and Johnson, Ellis L and Nemhauser, George L},
+  journal={Transportation Science},
+  volume={37},
+  number={4},
+  pages={408--421},
+  year={2003},
+  publisher={INFORMS}
+}
+
+@article{abdelghany2008integrated,
+  title={An integrated decision support tool for airlines schedule recovery during irregular operations},
+  author={Abdelghany, Khaled F and Abdelghany, Ahmed F and Ekollu, Goutham},
+  journal={European Journal of Operational Research},
+  volume={185},
+  number={2},
+  pages={825--848},
+  year={2008},
+  publisher={Elsevier}
+}
+
+@article{van2023airline,
+  title={Airline maintenance task rescheduling in a disruptive environment},
+  author={van Kessel, Paul J and Freeman, Floris C and Santos, Bruno F},
+  journal={European Journal of Operational Research},
+  volume={308},
+  number={2},
+  pages={605--621},
+  year={2023},
+  publisher={Elsevier}
+}
+
+
+@inproceedings{samaranayake2006current,
+  title={Current practices and problem areas in aircraft maintenance planning and scheduling--interfaced/integrated system perspective},
+  author={Samaranayake, Premaratne},
+  booktitle={Proceedings of the 7th Asia Pacific Industrial Engineering and Management Systems Conference},
+  pages={7--20},
+  year={2006}
+}
+
+@article{barnhart2003applications,
+  title={Applications of operations research in the air transport industry},
+  author={Barnhart, Cynthia and Belobaba, Peter and Odoni, Amedeo R},
+  journal={Transportation Science},
+  volume={37},
+  number={4},
+  pages={368--391},
+  year={2003},
+  publisher={INFORMS}
+}
+
+@article{bugaj2019aircraft,
+  title={Aircraft maintenance reserves--new approach to optimization},
+  author={Bugaj, Martin and Urminsk{\`y}, Tom{\'a}{\v{s}} and Rost{\'a}{\v{s}}, J{\'a}n and Pecho, Pavol},
+  journal={Transportation Research Procedia},
+  volume={43},
+  pages={31--40},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+
+@misc{airlineprofit,
+  author = {{Aviation Outlook}},
+  title = {22 External Factors Impacting Airline Profits},
+  howpublished = {\url{https://aviationoutlook.com/the-external-factors-impacting-airline-profits/}},
+  year ={2020},
+note = "[Online; accessed November 11, 2024]"
+}
+
+
+@article{albakkoush2020scheduling,
+  title={Scheduling challenges within maintenance repair and overhaul operations in the civil aviation sector},
+  author={Albakkoush, Salah and Pagone, Emanuele and Salonitis, Konstantinos},
+  year={2020},
+  publisher={TESConf}
+}
+
+@article{samaranayake2012aircraft,
+  title={Aircraft maintenance planning and scheduling: an integrated framework},
+  author={Samaranayake, Premaratne and Kiridena, Senevi},
+  journal={Journal of Quality in Maintenance Engineering},
+  volume={18},
+  number={4},
+  pages={432--453},
+  year={2012},
+  publisher={Emerald Group Publishing Limited}
+}
+
+
+@misc{aircraft_maintenance,
+  author = {The Yale Wave},
+  title = {Strategies to Optimize Aircraft Maintenance Efficiency},
+  year = {2023},
+  url = {https://campuspress.yale.edu/wave/strategies-to-optimize-aircraft-maintenance-efficiency/},
+  howpublished = {\url{https://campuspress.yale.edu/wave/strategies-to-optimize-aircraft-maintenance-efficiency/}},
+  note = {Accessed: November 11, 2024}
+}
+
+
+
+
+
+@misc{airline_impact,
+  title = {Economic Impact of Commercial Aviation},
+  url = {https://www.airlines.org/impact/},
+  howpublished = {\url{https://www.airlines.org/impact/}},
+  note = {Accessed: November 11, 2024},
+  year = {2024},
+  organization = {Airlines For America},
+  key = {Airlines For America}
+}
+
+
+@misc{Matthew_fulco,
+  title = {U.S. Airline Maintenance Spend Surges Past 2019 Levels: Jefferies},
+  author = {Matthew Fulco},
+  url = {https://aviationweek.com/mro/aircraft-propulsion/us-airline-maintenance-spend-surges-past-2019-levels-jefferies#:~:text=Further%20capital%20expenditure%20revisions%20suggest,from%20$5.9%20billion%20in%202019.},
+  note = {Accessed: November 11, 2024},
+  year = {2024},
+  organization = {Aviation Week Network}
+}
+
+
+
+
+@misc{Transtats2024,
+  title = {{U.S. Airline Maintenance Spend Surges Past 2019 Level; Airline On-Time Statistics and Delay Causes}},
+  author = {{Bureau of Transportation Statistics}},
+  url = {https://www.transtats.bts.gov/ot_delay/ot_delaycause1.asp?qv52ynB=qn6n&20=E},
+  note = {Accessed: November 11, 2024},
+  year = {2024},
+  organization = {{Bureau of Transportation Statistics}}
+}
+
+
+
+
+
+@misc{preventive_vs_on-condition,
+  author = {Omar Memon},
+  title = {Preventive Vs On-Condition Maintenance: Comparing \& Contrasting The Two Methods},
+  year = {2023},
+  url = {https://simpleflying.com/preventive-on-condition-maintenance-comparison/},
+  urldate = {2024-02-06},
+  publisher = {Simple Flying},
+  note = "{[Online; accessed November 11, 2024]}"
+
+}
+
+
+
+@article{verhagen2023condition,
+  title={Condition-Based Maintenance in Aviation: Challenges and Opportunities},
+  author={Verhagen, Wim JC and Santos, Bruno F and Freeman, Floris and van Kessel, Paul and Zarouchas, Dimitrios and Loutas, Theodoros and Yeun, Richard CK and Heiets, Iryna},
+  journal={Aerospace},
+  volume={10},
+  number={9},
+  pages={762},
+  year={2023},
+  publisher={MDPI}
+}
+
+
+@article{eddarhri2022towards,
+  title={Towards predictive maintenance: the case of the aeronautical industry},
+  author={Eddarhri, Maria and Adib, Jihad and Hain, Mustapha and Marzak, Abdelaziz},
+  journal={Procedia Computer Science},
+  volume={203},
+  pages={769--774},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{ingemarsdotter2021challenges,
+  title={Challenges and solutions in condition-based maintenance implementation-A multiple case study},
+  author={Ingemarsdotter, Emilia and Kambanou, Marianna Lena and Jamsin, Ella and Sakao, Tomohiko and Balkenende, Ruud},
+  journal={Journal of Cleaner Production},
+  volume={296},
+  pages={126420},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+
+@article{clarke1996maintenance,
+  title={Maintenance and crew considerations in fleet assignment},
+  author={Clarke, Lloyd W and Hane, Christopher A and Johnson, Ellis L and Nemhauser, George L},
+  journal={Transportation science},
+  volume={30},
+  number={3},
+  pages={249--260},
+  year={1996},
+  publisher={INFORMS}
+}
+
+
+@inproceedings{kumar1999evolutionary,
+  title={Evolutionary maintenance for aircraft engines},
+  author={Kumar, U Dinesh and Crocker, John and Knezevic, Jezdimir},
+  booktitle={Annual Reliability and Maintainability. Symposium. 1999 Proceedings (Cat. No. 99CH36283)},
+  pages={62--68},
+  year={1999},
+  organization={IEEE}
+}
+
+@inproceedings{afsar2006two,
+  title={A two-step heuristic to build flight and maintenance planning in a rolling horizon},
+  author={Afsar, H Murat and Espinouse, Marie-Laure and Penz, Bernard},
+  booktitle={2006 International Conference on Service Systems and Service Management},
+  volume={2},
+  pages={1251--1256},
+  year={2006},
+  organization={IEEE}
+}
+
+@article{haouari2011exact,
+  title={Exact approaches for integrated aircraft fleeting and routing at TunisAir},
+  author={Haouari, Mohamed and Sherali, Hanif D and Mansour, Farah Zeghal and Aissaoui, Najla},
+  journal={Computational Optimization and Applications},
+  volume={49},
+  pages={213--239},
+  year={2011},
+  publisher={Springer}
+}
+
+@phdthesis{cho2011optimal,
+  title={Optimal scheduling of fighter aircraft maintenance},
+  author={Cho, Philip Y},
+  year={2011},
+  school={Massachusetts Institute of Technology}
+}
+
+
+@inproceedings{sandhu2004integrated,
+  title={Integrated airline planning},
+  author={Sandhu, Rivi and Klabjan, Diego},
+  booktitle={Agifors Symposium},
+  year={2004}
+}
+
+
+
+
+@inproceedings{ingle2021demand,
+  title={Demand forecasting: Literature review on various methodologies},
+  author={Ingle, Chaitanya and Bakliwal, Dev and Jain, Jayesh and Singh, Preeyesh and Kale, Preeti and Chhajed, Vaibhav},
+  booktitle={2021 12th International Conference on Computing Communication and Networking Technologies (ICCCNT)},
+  pages={1--7},
+  year={2021},
+  organization={IEEE}
+}
+
+@article{lasek2016restaurant,
+  title={Restaurant sales and customer demand forecasting: Literature survey and categorization of methods},
+  author={Lasek, Agnieszka and Cercone, Nick and Saunders, Jim},
+  journal={Smart City 360°: First EAI International Summit, Smart City 360°, Bratislava, Slovakia and Toronto, Canada, October 13-16, 2015. Revised Selected Papers 1},
+  pages={479--491},
+  year={2016},
+  publisher={Springer}
+}
+
+@article{whittle1951hypothesis,
+  title={Hypothesis testing in time series analysis},
+  author={Whittle, Peter},
+  journal={(No Title)},
+  year={1951}
+}
+
+@inproceedings{wang2019selection,
+  title={A selection of advanced technologies for demand forecasting in the retail industry},
+  author={Wang, Jiaxing and Liu, GQ and Liu, Lu},
+  booktitle={2019 IEEE 4th International Conference on Big Data Analytics (ICBDA)},
+  pages={317--320},
+  year={2019},
+  organization={IEEE}
+}
+
+@article{pincce2021intermittent,
+  title={Intermittent demand forecasting for spare parts: A critical review},
+  author={Pin{\c{c}}e, {\c{C}}era{\u{g}} and Turrini, Laura and Meissner, Joern},
+  journal={Omega},
+  volume={105},
+  pages={102513},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{altay2008adapting,
+  title={Adapting Wright's modification of Holt's method to forecasting intermittent demand},
+  author={Altay, Nezih and Rudisill, Frank and Litteral, Lewis A},
+  journal={International Journal of Production Economics},
+  volume={111},
+  number={2},
+  pages={389--408},
+  year={2008},
+  publisher={Elsevier}
+}
+
+@article{williams1984stock,
+  title={Stock control with sporadic and slow-moving demand},
+  author={Williams, Terence M},
+  journal={Journal of the Operational Research Society},
+  volume={35},
+  pages={939--948},
+  year={1984},
+  publisher={Springer}
+}
+
+@article{willemain1994forecasting,
+  title={Forecasting intermittent demand in manufacturing: a comparative evaluation of Croston's method},
+  author={Willemain, Thomas R and Smart, Charles N and Shockor, Joseph H and DeSautels, Philip A},
+  journal={International Journal of forecasting},
+  volume={10},
+  number={4},
+  pages={529--538},
+  year={1994},
+  publisher={Elsevier}
+}
+
+@article{johnston1996forecasting,
+  title={Forecasting for items with intermittent demand},
+  author={Johnston, FR and Boylan, John E},
+  journal={Journal of the operational research society},
+  volume={47},
+  number={1},
+  pages={113--121},
+  year={1996},
+  publisher={Taylor \& Francis}
+}
+
+@article{moon2012development,
+  title={The development of a hierarchical forecasting method for predicting spare parts demand in the South Korean Navy—A case study},
+  author={Moon, Seongmin and Hicks, Christian and Simpson, Andrew},
+  journal={International Journal of Production Economics},
+  volume={140},
+  number={2},
+  pages={794--802},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{li2018greedy,
+  title={A greedy aggregation--decomposition method for intermittent demand forecasting in fashion retailing},
+  author={Li, Chongshou and Lim, Andrew},
+  journal={European Journal of Operational Research},
+  volume={269},
+  number={3},
+  pages={860--869},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{petropoulos2015forecast,
+  title={Forecast combinations for intermittent demand},
+  author={Petropoulos, Fotios and Kourentzes, Nikolaos},
+  journal={Journal of the Operational Research Society},
+  volume={66},
+  number={6},
+  pages={914--924},
+  year={2015},
+  publisher={Taylor \& Francis}
+}
+
+@article{syntetos2005categorization,
+  title={On the categorization of demand patterns},
+  author={Syntetos, Aris A and Boylan, John E and Croston, JD},
+  journal={Journal of the operational research society},
+  volume={56},
+  pages={495--503},
+  year={2005},
+  publisher={Springer}
+}
+
+@article{kostenko2006note,
+  title={A note on the categorization of demand patterns},
+  author={Kostenko, Audrey V and Hyndman, Rob J},
+  journal={Journal of the Operational Research Society},
+  volume={57},
+  pages={1256--1257},
+  year={2006},
+  publisher={Springer}
+}
+
+@article{zhu2017improved,
+  title={An improved method for forecasting spare parts demand using extreme value theory},
+  author={Zhu, Sha and Dekker, Rommert and Van Jaarsveld, Willem and Renjie, Rex Wang and Koning, Alex J},
+  journal={European Journal of Operational Research},
+  volume={261},
+  number={1},
+  pages={169--181},
+  year={2017},
+  publisher={Elsevier}
+}
+
+
+@article{romeijnders2012two,
+  title={A two-step method for forecasting spare parts demand using information on component repairs},
+  author={Romeijnders, Ward and Teunter, Ruud and Van Jaarsveld, Willem},
+  journal={European Journal of Operational Research},
+  volume={220},
+  number={2},
+  pages={386--393},
+  year={2012},
+  publisher={Elsevier}
+}
+
+@article{croston1972forecasting,
+  title={Forecasting and stock control for intermittent demands},
+  author={Croston, John D},
+  journal={Journal of the Operational Research Society},
+  volume={23},
+  number={3},
+  pages={289--303},
+  year={1972},
+  publisher={Springer}
+}
+
+@article{van2011estimating,
+  title={Estimating obsolescence risk from demand data to enhance inventory control—A case study},
+  author={Van Jaarsveld, Willem and Dekker, Rommert},
+  journal={International Journal of Production Economics},
+  volume={133},
+  number={1},
+  pages={423--431},
+  year={2011},
+  publisher={Elsevier}
+}
+
+@article{priyadarshi2019demand,
+  title={Demand forecasting at retail stage for selected vegetables: a performance analysis},
+  author={Priyadarshi, Rahul and Panigrahi, Akash and Routroy, Srikanta and Garg, Girish Kant},
+  journal={Journal of Modelling in Management},
+  volume={14},
+  number={4},
+  pages={1042--1063},
+  year={2019},
+  publisher={Emerald Publishing Limited}
+}
+
+@article{fernandez2019extensive,
+  title={An extensive experimental survey of regression methods},
+  author={Fern{\'a}ndez-Delgado, Manuel and Sirsat, Manisha Sanjay and Cernadas, Eva and Alawadi, Sadi and Barro, Sen{\'e}n and Febrero-Bande, Manuel},
+  journal={Neural Networks},
+  volume={111},
+  pages={11--34},
+  year={2019},
+  publisher={Elsevier}
+}
+
+
+@article{sapankevych2009time,
+  title={Time series prediction using support vector machines: a survey},
+  author={Sapankevych, Nicholas I and Sankar, Ravi},
+  journal={IEEE computational intelligence magazine},
+  volume={4},
+  number={2},
+  pages={24--38},
+  year={2009},
+  publisher={IEEE}
+}
+@book{haykin2009neural,
+  title={Neural networks and learning machines, 3/E},
+  author={Haykin, Simon},
+  year={2009},
+ publisher={Pearson Education India}
+}
+
+
+@inproceedings{aburto2007sequential,
+  title={A sequential hybrid forecasting system for demand prediction},
+  author={Aburto, Luis and Weber, Richard},
+  booktitle={Machine Learning and Data Mining in Pattern Recognition: 5th International Conference, MLDM 2007, Leipzig, Germany, July 18-20, 2007. Proceedings 5},
+  pages={518--532},
+  year={2007},
+  organization={Springer}
+}
+
+@article{kim2017spare,
+  title={Spare part demand forecasting for consumer goods using installed base information},
+  author={Kim, Thai Young and Dekker, Rommert and Heij, Christiaan},
+  journal={Computers \& Industrial Engineering},
+  volume={103},
+  pages={201--215},
+  year={2017},
+  publisher={Elsevier}
+}
+
+
+
+@article{feng2021civil,
+  title={Civil aircraft spare parts prediction and configuration management techniques: review and prospect},
+  author={Feng, Yun-Wen and Chen, Jun-Yu and Lu, Cheng and Zhu, Shun-Peng},
+  journal={Advances in Mechanical Engineering},
+  volume={13},
+  number={6},
+  pages={16878140211026173},
+  year={2021},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+
+@article{willemain2004new,
+  title={A new approach to forecasting intermittent demand for service parts inventories},
+  author={Willemain, Thomas R and Smart, Charles N and Schwarz, Henry F},
+  journal={International Journal of forecasting},
+  volume={20},
+  number={3},
+  pages={375--387},
+  year={2004},
+  publisher={Elsevier}
+}
+
+@article{ruiz2014hybrid,
+  title={Hybrid approaches based on SARIMA and artificial neural networks for inspection time series forecasting},
+  author={Ruiz-Aguilar, JJ and Turias, IJ and Jim{\'e}nez-Come, MJ},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={67},
+  pages={1--13},
+  year={2014},
+  publisher={Elsevier}
+}
+
+
+@article{ghobbar2003evaluation,
+  title={Evaluation of forecasting methods for intermittent parts demand in the field of aviation: a predictive model},
+  author={Ghobbar, Adel A and Friend, Chris H},
+  journal={Computers \& operations research},
+  volume={30},
+  number={14},
+  pages={2097--2114},
+  year={2003},
+  publisher={Elsevier}
+}
+
+
+@inproceedings{bao2004forecasting,
+  title={Forecasting intermittent demand by SVMs regression},
+  author={Bao, Yukun and Wang, Wen and Zhang, Jinlong},
+  booktitle={2004 IEEE international conference on systems, man and cybernetics (IEEE Cat. No. 04CH37583)},
+  volume={1},
+  pages={461--466},
+  year={2004},
+  organization={IEEE}
+}
+
+@article{ghobbar1996aircraft,
+  title={Aircraft maintenance and inventory control using the reorder point system},
+  author={Ghobbar, AA and Friend, CH},
+  journal={International Journal of Production Research},
+  volume={34},
+  number={10},
+  pages={2863--2878},
+  year={1996},
+  publisher={Taylor \& Francis}
+}
+
+
+@article{watson1987effects,
+  title={The effects of demand-forecast fluctuations on customer service and inventory cost when demand is lumpy},
+  author={Watson, Richard B},
+  journal={Journal of the Operational Research Society},
+  volume={38},
+  number={1},
+  pages={75--82},
+  year={1987},
+  publisher={Springer}
+}
+
+@book{friend1992aircraft,
+  title={Aircraft maintenance management},
+  author={Friend, CH},
+  year={1992},
+  publisher={Longman Publishing Group}
+}
+
+@article{zhao1993freezing,
+  title={Freezing the master production schedule for material requirements planning systems under demand uncertainty},
+  author={Zhao, Xiande and Lee, TS},
+  journal={Journal of operations management},
+  volume={11},
+  number={2},
+  pages={185--205},
+  year={1993},
+  publisher={Elsevier}
+}
+
+
+@article{christer1995simple,
+  title={A simple condition monitoring model for a direct monitoring process},
+  author={Christer, AH and Wang, Wenbin},
+  journal={European journal of operational research},
+  volume={82},
+  number={2},
+  pages={258--269},
+  year={1995},
+  publisher={Elsevier}
+}
+
+
+@article{amirkolaii2017demand,
+  title={Demand forecasting for irregular demands in business aircraft spare parts supply chains by using artificial intelligence (AI)},
+  author={Amirkolaii, K Nemati and Baboli, Armand and Shahzad, MK and Tonadre, R},
+  journal={IFAC-PapersOnLine},
+  volume={50},
+  number={1},
+  pages={15221--15226},
+  year={2017},
+  publisher={Elsevier}
+}
+
+
+@inproceedings{amin2008neural,
+  title={Neural network approach to lumpy demand forecasting for spare parts in process industries},
+  author={Amin-Naseri, Mohammad Reza and Tabar, B Rostami},
+  booktitle={2008 International Conference on Computer and Communication Engineering},
+  pages={1378--1382},
+  year={2008},
+  organization={IEEE}
+}
+
+@article{xu2019forecasting,
+  title={Forecasting the demand of the aviation industry using hybrid time series SARIMA-SVR approach},
+  author={Xu, Shuojiang and Chan, Hing Kai and Zhang, Tiantian},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={122},
+  pages={169--180},
+  year={2019},
+  publisher={Elsevier}
+}
+
+@article{zhu2020spare,
+  title={Spare parts inventory control based on maintenance planning},
+  author={Zhu, Sha and van Jaarsveld, Willem and Dekker, Rommert},
+  journal={Reliability Engineering \& System Safety},
+  volume={193},
+  pages={106600},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{solis2023proposal,
+  title={A Proposal of Transfer Learning for Monthly Macroeconomic Time Series Forecast},
+  author={Sol{\'\i}s, Mart{\'\i}n and Calvo-Valverde, Luis-Alexander},
+  journal={Engineering Proceedings},
+  volume={39},
+  number={1},
+  pages={58},
+  year={2023},
+  publisher={MDPI}
+}
+
+@book{jung2018algorithmic,
+  title={An algorithmic crystal ball: Forecasts-based on machine learning},
+  author={Jung, Jin-Kyu and Patnam, Manasa and Ter-Martirosyan, Anna},
+  year={2018},
+  publisher={International Monetary Fund}
+}
+
+@article{poghosyan2021enterprise,
+  title={An enterprise time series forecasting system for cloud applications using transfer learning},
+  author={Poghosyan, Arnak and Harutyunyan, Ashot and Grigoryan, Naira and Pang, Clement and Oganesyan, George and Ghazaryan, Sirak and Hovhannisyan, Narek},
+  journal={Sensors},
+  volume={21},
+  number={5},
+  pages={1590},
+  year={2021},
+  publisher={MDPI}
+}
+
+
+
+
+
+@article{kaushik2020forecasting,
+  title={Forecasting foreign exchange rate: a multivariate comparative analysis between traditional econometric, contemporary machine learning \& deep learning techniques},
+  author={Kaushik, Manav and Giri, Arun Kumar},
+  journal={arXiv preprint arXiv:2002.10247},
+  year={2020}
+}
+
+
+@article{smalter2017macroeconomic,
+  title={Macroeconomic indicator forecasting with deep neural networks},
+  author={Smalter Hall, Aaron and Cook, Thomas R},
+  journal={Federal Reserve Bank of Kansas City Working Paper},
+  number={17-11},
+  year={2017}
+}
+
+@article{yasir2020efficient,
+  title={An efficient deep learning based model to predict interest rate using twitter sentiment},
+  author={Yasir, Muhammad and Afzal, Sitara and Latif, Khalid and Chaudhary, Ghulam Mujtaba and Malik, Nazish Yameen and Shahzad, Farhan and Song, Oh-young},
+  journal={Sustainability},
+  volume={12},
+  number={4},
+  pages={1660},
+  year={2020},
+  publisher={MDPI}
+}
+
+@article{shafi2023spare,
+  title={Spare Parts Forecasting and Lumpiness Classification Using Neural Network Model and Its Impact on Aviation Safety},
+  author={Shafi, Imran and Sohail, Amir and Ahmad, Jamil and Espinosa, Julio C{\'e}sar Mart{\'\i}nez and L{\'o}pez, Luis Alonso Dzul and Thompson, Ernesto Bautista and Ashraf, Imran},
+  journal={Applied Sciences},
+  volume={13},
+  number={9},
+  pages={5475},
+  year={2023},
+  publisher={MDPI}
+}
+
+@article{wang2015back,
+  title={Back propagation neural network with adaptive differential evolution algorithm for time series forecasting},
+  author={Wang, Lin and Zeng, Yi and Chen, Tao},
+  journal={Expert Systems with Applications},
+  volume={42},
+  number={2},
+  pages={855--863},
+  year={2015},
+  publisher={Elsevier}
+}
+
+@article{zhang1998forecasting,
+  title={Forecasting with artificial neural networks:: The state of the art},
+  author={Zhang, Guoqiang and Patuwo, B Eddy and Hu, Michael Y},
+  journal={International journal of forecasting},
+  volume={14},
+  number={1},
+  pages={35--62},
+  year={1998},
+  publisher={Elsevier}
+}
+
+@article{costantino2018spare,
+  title={Spare parts management for irregular demand items},
+  author={Costantino, Francesco and Di Gravio, Giulio and Patriarca, Riccardo and Petrella, Lea},
+  journal={Omega},
+  volume={81},
+  pages={57--66},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{gamberini2010forecasting,
+  title={Forecasting of sporadic demand patterns with seasonality and trend components: an empirical comparison between Holt-Winters and (S) ARIMA methods},
+  author={Gamberini, Rita and Lolli, Francesco and Rimini, Bianca and Sgarbossa, Fabio and others},
+  journal={Mathematical Problems in Engineering},
+  volume={2010},
+  year={2010},
+  publisher={Hindawi}
+}
+
+
+@article{pai2010time,
+  title={Time series forecasting by a seasonal support vector regression model},
+  author={Pai, Ping-Feng and Lin, Kuo-Ping and Lin, Chi-Shen and Chang, Ping-Teng},
+  journal={Expert Systems with Applications},
+  volume={37},
+  number={6},
+  pages={4261--4265},
+  year={2010},
+  publisher={Elsevier}
+}
+
+@inproceedings{fu2018hybrid,
+  title={A hybrid forecasting framework with neural network and time-series method for intermittent demand in semiconductor supply chain},
+  author={Fu, Wenhan and Chien, Chen-Fu and Lin, Zih-Hao},
+  booktitle={Advances in Production Management Systems. Smart Manufacturing for Industry 4.0: IFIP WG 5.7 International Conference, APMS 2018, Seoul, Korea, August 26-30, 2018, Proceedings, Part II},
+  pages={65--72},
+  year={2018},
+  organization={Springer}
+}
+
+
+@article{nikolopoulos2021we,
+  title={We need to talk about intermittent demand forecasting},
+  author={Nikolopoulos, Konstantinos},
+  journal={European Journal of Operational Research},
+  volume={291},
+  number={2},
+  pages={549--559},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+@article{leven2004inventory,
+  title={Inventory control with a modified Croston procedure and Erlang distribution},
+  author={Lev{\'e}n, Erik and Segerstedt, Anders},
+  journal={International journal of production economics},
+  volume={90},
+  number={3},
+  pages={361--367},
+  year={2004},
+  publisher={Elsevier}
+}
+
+@article{choi2020forecasting,
+  title={Forecasting spare parts demand of military aircraft: Comparisons of data mining techniques and managerial features from the case of South Korea},
+  author={Choi, Boram and Suh, Jong Hwan},
+  journal={Sustainability},
+  volume={12},
+  number={15},
+  pages={6045},
+  year={2020},
+  publisher={MDPI}
+}
+
+@book{adams1993modeling,
+  title={Modeling and forecasting the demand for aircraft recoverable spare parts},
+  author={Adams, John L and Abell, John B and Isaacson, Karen},
+  year={1993},
+  publisher={Rand}
+}
+
+
+@misc{wiki_ata100,
+  title = {{ATA 100}},
+  author = {{Wikipedia}},
+  howpublished = {\url{https://en.wikipedia.org/wiki/ATA_100}},
+  year = {2024},
+  note = {Accessed: November 11, 2024},
+  organization = {{Wikimedia Foundation}}
+}
+
+
+@misc{asapaerospace_atachapters,
+  title = {{ATA 100 Chapters - Aircraft ATA Chapters List}},
+  author = {{ASAP Aerospace}},
+  howpublished = {\url{https://www.asap-aerospace.com/ata-chapters/}},
+  year ={2015},
+note = "[Online; accessed November 11, 2024]",
+  organization = {ASAP Aerospace}
+}
+
+
+@article{paparrizos2017fast,
+  title={{Fast and Accurate Time-Series Clustering}},
+  author={Paparrizos, John and Gravano, Luis},
+  journal={ACM Transactions on Database Systems (ACM TODS)},
+  volume={42},
+  number={2},
+  pages={1--49},
+  year={2017}
+}
+
+@inproceedings{paparrizos2015k,
+  title={{k-Shape: Efficient and Accurate Clustering of Time Series}},
+  author={Paparrizos, John and Gravano, Luis},
+  booktitle={Proceedings of the 2015 ACM SIGMOD international conference on management of data},
+  pages={1855--1870},
+  year={2015}
+}
+
+
+@article{javed2020benchmark,
+  title={A benchmark study on time series clustering},
+  author={Javed, Ali and Lee, Byung Suk and Rizzo, Donna M},
+  journal={Machine Learning with Applications},
+  volume={1},
+  pages={100001},
+  year={2020},
+  publisher={Elsevier}
+}
+
+
+@article{ozkocc2020clustering,
+  title={Clustering of time-series data},
+  author={{\"O}zko{\c{c}}, E Erg{\"u}ner},
+  journal={Data Mining-Methods, Applications and Systems},
+  year={2020},
+  publisher={IntechOpen}
+}
+
+
+@article{johnpaul2020trendlets,
+  title={Trendlets: A novel probabilistic representational structures for clustering the time series data},
+  author={Johnpaul, CI and Prasad, Munaga VNK and Nickolas, S and Gangadharan, GR},
+  journal={Expert Systems with Applications},
+  volume={145},
+  pages={113119},
+  year={2020},
+  publisher={Elsevier}
+}
+
+
+@article{aghabozorgi2015time,
+  title={Time-series clustering--a decade review},
+  author={Aghabozorgi, Saeed and Shirkhorshidi, Ali Seyed and Wah, Teh Ying},
+  journal={Information systems},
+  volume={53},
+  pages={16--38},
+  year={2015},
+  publisher={Elsevier}
+}
+
+
+@inproceedings{coric_clustering_2019,
+	location = {Opatija, Croatia},
+	title = {A clustering model for time-series forecasting},
+	isbn = {978-953-233-098-4},
+	url = {https://ieeexplore.ieee.org/document/8756806/},
+	doi = {10.23919/MIPRO.2019.8756806},
+	eventtitle = {2019 42nd International Convention on Information and Communication Technology, Electronics and Microelectronics ({MIPRO})},
+	pages = {1105--1109},
+	booktitle = {2019 42nd International Convention on Information and Communication Technology, Electronics and Microelectronics ({MIPRO})},
+	publisher = {{IEEE}},
+	author = {Coric, Rebeka and Dumic, Mateja and Jelic, Slobodan},
+	urldate = {2023-09-28},
+	date = {2019-05},
+    year={2019},
+	langid = {english}
+}
+
+@article{zhao2022historical,
+  title={Historical pattern recognition with trajectory similarity for daily tourist arrivals forecasting},
+  author={Zhao, Erlong and Du, Pei and Sun, Shaolong},
+  journal={Expert Systems with Applications},
+  volume={203},
+  pages={117427},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{perez2020big,
+  title={Big data time series forecasting based on pattern sequence similarity and its application to the electricity demand},
+  author={P{\'e}rez-Chac{\'o}n, Rub{\'e}n and Asencio-Cort{\'e}s, Gualberto and Mart{\'\i}nez-{\'A}lvarez, Francisco and Troncoso, Alicia},
+  journal={Information Sciences},
+  volume={540},
+  pages={160--174},
+  year={2020},
+  publisher={Elsevier}
+}
+
+@article{seyedan2022cluster,
+  title={Cluster-based demand forecasting using Bayesian model averaging: An ensemble learning approach},
+  author={Seyedan, Mahya and Mafakheri, Fereshteh and Wang, Chun},
+  journal={Decision Analytics Journal},
+  volume={3},
+  pages={100033},
+  year={2022},
+  publisher={Elsevier}
+}
+
+
+@misc{aircraft-part-conditions,
+  title = {What are the Different Aircraft Part Conditions?},
+  url = {https://cla.aero/what-are-the-different-aircraft-part-conditions/},
+  author = {{C\&L Aviation}},
+  year = {2021},
+note = "[Online; accessed November 11, 2024]"
+}
+
+
+@misc{mba:2023,
+  author = {Mba Aviation},
+  title = {Utilizing Alternative Collateral: Spare Parts},
+  year = {2023},
+  url = {https://www.mba.aero/utilizing-alternative-collateral-spare-parts/},
+note = "[Online; accessed November 11, 2024]"
+}
+
+
+@article{cheng2015time,
+  title={Time series forecasting for nonlinear and non-stationary processes: a review and comparative study},
+  author={Cheng, Changqing and Sa-Ngasoongsong, Akkarapol and Beyca, Omer and Le, Trung and Yang, Hui and Kong, Zhenyu and Bukkapatnam, Satish TS},
+  journal={Iie Transactions},
+  volume={47},
+  number={10},
+  pages={1053--1071},
+  year={2015},
+  publisher={Taylor \& Francis}
+}
+
+
+@article{gneiting2007probabilistic,
+  title={Probabilistic forecasts, calibration and sharpness},
+  author={Gneiting, Tilmann and Balabdaoui, Fadoua and Raftery, Adrian E},
+  journal={Journal of the Royal Statistical Society Series B: Statistical Methodology},
+  volume={69},
+  number={2},
+  pages={243--268},
+  year={2007},
+  publisher={Oxford University Press}
+}
+
+
+@misc{hong2016probabilistic,
+  title={Probabilistic energy forecasting: Global energy forecasting competition 2014 and beyond},
+  author={Hong, Tao and Pinson, Pierre and Fan, Shu and Zareipour, Hamidreza and Troccoli, Alberto and Hyndman, Rob J},
+  journal={International Journal of forecasting},
+  volume={32},
+  number={3},
+  pages={896--913},
+  year={2016},
+  publisher={Elsevier}
+}
+
+@article{gneiting2014probabilistic,
+  title={Probabilistic forecasting},
+  author={Gneiting, Tilmann and Katzfuss, Matthias},
+  journal={Annual Review of Statistics and Its Application},
+  volume={1},
+  pages={125--151},
+  year={2014},
+  publisher={Annual Reviews}
+}
+
+@book{hyndman2018forecasting,
+  title={Forecasting: principles and practice},
+  author={Hyndman, Rob J and Athanasopoulos, George},
+  year={2018},
+  publisher={OTexts}
+}
+
+
+
+
+@article{rovzanec2022reframing,
+  title={Reframing demand forecasting: a two-fold approach for lumpy and intermittent demand},
+  author={Ro{\v{z}}anec, Jo{\v{z}}e Martin and Fortuna, Bla{\v{z}} and Mladeni{\'c}, Dunja},
+  journal={Sustainability},
+  volume={14},
+  number={15},
+  pages={9295},
+  year={2022},
+  publisher={MDPI}
+}
+
+
+@article{kaya2020intermittent,
+  title={Intermittent demand forecasting: A guideline for method selection},
+  author={Kaya, Gamze Ogcu and Sahin, Merve and Demirel, Omer Fahrettin},
+  journal={S{\=a}dhan{\=a}},
+  volume={45},
+  pages={1--7},
+  year={2020},
+  publisher={Springer}
+}
+
+@article{teunter2009forecasting,
+  title={Forecasting intermittent demand: a comparative study},
+  author={Teunter, Ruud H and Duncan, Laura},
+  journal={Journal of the Operational Research Society},
+  volume={60},
+  number={3},
+  pages={321--329},
+  year={2009},
+  publisher={Taylor \& Francis}
+}
+
+@article{silva2019intermittent,
+  title={Intermittent demand forecasting for aircraft inventories: a study of Brazilian’s Boeing 737NG aircraft{\'{}} s spare parts management},
+  author={Silva, Jersone Tasso Moreira and Santos, Luiz Henrique and Dias, Alexandre Teixeira and Tadeu, Hugo Ferreira Braga},
+  journal={TRANSPORTES},
+  volume={27},
+  number={2},
+  pages={102--116},
+  year={2019}
+}
+
+@article{ghobbar2002sources,
+  title={Sources of intermittent demand for aircraft spare parts within airline operations},
+  author={Ghobbar, Adel A and Friend, Chris H},
+  journal={Journal of Air Transport Management},
+  volume={8},
+  number={4},
+  pages={221--231},
+  year={2002},
+  publisher={Elsevier}
+}
+
+
+
+@article{mobarakeh2017improved,
+  title={Improved forecasts for uncertain and unpredictable spare parts demand in business aircraft’s with bootstrap method},
+  author={Mobarakeh, N Ahmadi and Shahzad, MK and Baboli, Armand and Tonadre, R},
+  journal={IFAC-PapersOnLine},
+  volume={50},
+  number={1},
+  pages={15241--15246},
+  year={2017},
+  publisher={Elsevier}
+}
+
+
+@article{yang2018aero,
+  title={Aero-material consumption prediction based on linear regression model},
+  author={Yang, Yanming and Sun, Lulu and Guo, Chaoran},
+  journal={Procedia computer science},
+  volume={131},
+  pages={825--831},
+  year={2018},
+  publisher={Elsevier}
+}
+
+
+@article{yongquan2016ordering,
+  title={Ordering decision-making methods on spare parts for a new aircraft fleet based on a two-sample prediction},
+  author={Yongquan, Sun and Xi, Chen and He, Ren and Yingchao, Jin and Quanwu, Liu},
+  journal={Reliability Engineering \& System Safety},
+  volume={156},
+  pages={40--50},
+  year={2016},
+  publisher={Elsevier}
+}
+
+
+@article{baisariyev2021demand,
+  title={Demand forecasting methods for spare parts logistics for aviation: a real-world implementation of the Bootstrap method},
+  author={Baisariyev, M and Bakytzhanuly, A and Serik, Y and Mukhanova, B and Babai, MZ and Tsakalerou, M and Papadopoulos, CT},
+  journal={Procedia Manufacturing},
+  volume={55},
+  pages={500--506},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+@article{lowas2016reliability,
+  title={Reliability and operations: Keys to lumpy aircraft spare parts demands},
+  author={Lowas III, Albert F and Ciarallo, Frank W},
+  journal={Journal of Air Transport Management},
+  volume={50},
+  pages={30--40},
+  year={2016},
+  publisher={Elsevier}
+}
+
+
+@article{sahin2013forecasting,
+  title={Forecasting aviation spare parts demand using croston based methods and artificial neural networks},
+  author={Sahin, Merve and Kizilaslan, Recep and Demirel, {\"O}mer F},
+  journal={Journal of Economic and Social Research},
+  volume={15},
+  number={2},
+  pages={1},
+  year={2013},
+  publisher={Fatih University}
+}
+
+@misc{wiki:aircraftonground,
+  author = {{Wikipedia contributors}},
+  title = "Aircraft on ground --- Wikipedia{,} The Free Encyclopedia",
+  year = "2024",
+  url = "https://en.wikipedia.org/w/index.php?title=Aircraft_on_ground&oldid=1193385271",
+  note = "[Online; accessed November 11, 2024]"
+}
+
+@article{shahmoradi2021robust,
+  title={Robust maintenance scheduling of aircraft fleet: A hybrid simulation-optimization approach},
+  author={Shahmoradi-Moghadam, Hani and Safaei, Nima and Sadjadi, Seyed Jafar},
+  journal={IEEE Access},
+  volume={9},
+  pages={17854--17865},
+  year={2021},
+  publisher={IEEE}
+}
+
+@book{rosales2016analysing,
+  title={Analysing uncertainty and delays in aircraft heavy maintenance},
+  author={Rosales, Leandro Julian Salazar},
+  year={2016},
+  publisher={The University of Manchester (United Kingdom)}
+}
+
+@article{yan2008long,
+  title={Long-term aircraft maintenance scheduling for an aircraft maintenance centre: a case study},
+  author={Yan, Shangyao and Chen, Chun-Ying and Yuan, Chun-Ying},
+  journal={International Journal of Applied Management Science},
+  volume={1},
+  number={2},
+  pages={143--159},
+  year={2008},
+  publisher={Inderscience Publishers}
+}
+
+@article{pleumpirom2012multiobjective,
+  title={Multiobjective optimization of aircraft maintenance in Thailand using goal programming: A decision-support model},
+  author={Pleumpirom, Yuttapong and Amornsawadwatana, Sataporn and others},
+  journal={Advances in Decision Sciences},
+  volume={2012},
+  year={2012},
+  publisher={Hindawi}
+}
+
+@article{deng2021novel,
+  title={A novel decision support system for optimizing aircraft maintenance check schedule and task allocation},
+  author={Deng, Qichen and Santos, Bruno F and Verhagen, Wim JC},
+  journal={Decision Support Systems},
+  volume={146},
+  pages={113545},
+  year={2021},
+  publisher={Elsevier}
+}
+
+@article{el2000dynamic,
+  title={A dynamic approach for aircraft assignment and maintenance scheduling by airlines},
+  author={El Moudani, Walid and Mora-Camino, F{\'e}lix},
+  journal={Journal of Air Transport Management},
+  volume={6},
+  number={4},
+  pages={233--237},
+  year={2000},
+  publisher={Elsevier}
+}
+
+@article{dodin2023bombardier,
+  title={Bombardier aftermarket demand forecast with machine learning},
+  author={Dodin, Pierre and Xiao, Jingyi and Adulyasak, Yossiri and Alamdari, Neda Etebari and Gauthier, Lea and Grangier, Philippe and Lemaitre, Paul and Hamilton, William L},
+  journal={INFORMS Journal on Applied Analytics},
+  volume={53},
+  number={6},
+  pages={425--445},
+  year={2023},
+  publisher={INFORMS}
+}
+
+
+@article{eaves2004forecasting,
+  title={Forecasting for the ordering and stock-holding of spare parts},
+  author={Eaves, Andrew HC and Kingsman, Brian G},
+  journal={Journal of the Operational Research Society},
+  volume={55},
+  number={4},
+  pages={431--437},
+  year={2004},
+  publisher={Taylor \& Francis}
+}
+
+@inproceedings{qiu2019research,
+  title={Research on demand forecast of aircraft spare parts based on fractional order discrete grey model},
+  author={Qiu, Qunhai and Qin, ChangMao and Shi, Jiao and Zhou, Haotian},
+  booktitle={2019 IEEE 5th International Conference on Computer and Communications (ICCC)},
+  pages={2212--2216},
+  year={2019},
+  organization={IEEE}
+}
+
+@article{harimansyah2020aircraft,
+  title={Aircraft spare parts inventory management analysis on airframe product using continuous review methods},
+  author={Harimansyah, Faikar Ridwan and Imaroh, Tukhas Shilul},
+  journal={Dinasti International Journal of Management Science},
+  volume={2},
+  number={1},
+  pages={81--90},
+  year={2020}
+}
+
+@article{guo2017double,
+  title={A double-level combination approach for demand forecasting of repairable airplane spare parts based on turnover data},
+  author={Guo, Feng and Diao, Jun and Zhao, Qiuhong and Wang, Dexin and Sun, Qiang},
+  journal={Computers \& Industrial Engineering},
+  volume={110},
+  pages={92--108},
+  year={2017},
+  publisher={Elsevier}
+}
+
+@article{li2015novel,
+  title={A novel prediction model for aircraft spare part intermittent demand in aviation transportation logistics using multi-components accumulation and high resolution analysis},
+  author={Li, Zhixiong and Zhang, Yuelei and Yan, Xinping and Peng, Zhongxiao},
+  journal={Proceedings of the Institution of Mechanical Engineers, Part G: Journal of Aerospace Engineering},
+  volume={229},
+  number={2},
+  pages={384--395},
+  year={2015},
+  publisher={SAGE Publications Sage UK: London, England}
+}
+
+@article{wang2018method,
+  title={Method of spare parts prediction models evaluation based on grey comprehensive correlation degree and association rules mining: A case study in aviation},
+  author={Wang, Jun and Pan, Xing and Wang, Ligeng and Wei, Wei and others},
+  journal={Mathematical Problems in Engineering},
+  volume={2018},
+  year={2018},
+  publisher={Hindawi}
+}
+
+@misc{Omar_howmanyparts,
+  author = {{Simple Flying}},
+  title = {Confusing Quantification: How Many Parts Does An Airliner Have?},
+  year = {2023},
+  howpublished = {\url{https://simpleflying.com/airliners-how-many-parts/}},
+  note = "[Online; accessed November 11, 2024]"
+}
+
+@article{hu2018or,
+  title={OR in spare parts management: A review},
+  author={Hu, Qiwei and Boylan, John E and Chen, Huijing and Labib, Ashraf},
+  journal={European Journal of Operational Research},
+  volume={266},
+  number={2},
+  pages={395--414},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{baisariyev2021demand,
+  title={Demand forecasting methods for spare parts logistics for aviation: a real-world implementation of the Bootstrap method},
+  author={Baisariyev, M and Bakytzhanuly, A and Serik, Y and Mukhanova, B and Babai, MZ and Tsakalerou, M and Papadopoulos, CT},
+  journal={Procedia manufacturing},
+  volume={55},
+  pages={500--506},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+@article{gutierrez2008lumpy,
+  title={Lumpy demand forecasting using neural networks},
+  author={Gutierrez, Rafael S and Solis, Adriano O and Mukhopadhyay, Somnath},
+  journal={International journal of production economics},
+  volume={111},
+  number={2},
+  pages={409--420},
+  year={2008},
+  publisher={Elsevier}
+}
+
+
+@mastersthesis{thummathid2020comparison,
+  title        = {A Comparison of Forecasting Methods for Rotable Spare Parts in a Thai Low-Cost Airline},
+  author       = {Thummathid, Supannika},
+  year         = {2020},
+  school       = {Chulalongkorn University},
+  type         = {Master's thesis},
+  note         = {Available at \url{https://digital.car.chula.ac.th/chulaetd/185/}}
+}
+
+
+@inproceedings{lee2018predictive,
+  title={A Predictive Model for Forecasting Spare Parts Demand in Military Logistics},
+  author={Lee, Hanjun and Kim, Jaedong},
+  booktitle={2018 IEEE International Conference on Industrial Engineering and Engineering Management (IEEM)},
+  pages={1106--1110},
+  year={2018},
+  organization={IEEE}
+}
+
+@article{o2021sortie,
+  title={Sortie-based aircraft component demand rate to predict requirements},
+  author={O'Neal, Thomas R and Dickens, John M and Champagne, Lance E and Glassburner, Aaron V and Anderson, Jason R and Breitbach, Timothy W},
+  journal={Journal of Defense Analytics and Logistics},
+  volume={5},
+  number={2},
+  pages={214--223},
+  year={2021},
+  publisher={Emerald Publishing Limited}
+}
+
+
+@article{kuswardani2020probabilistic,
+  title={A Probabilistic Modeling of the Demand and Supply for Rotable Aircraft Components (Case Study: Brake Assembly of Boeing 737-800)},
+  author={Kuswardani, CDW and Suwondo, E},
+  journal={AVIA},
+  volume={2},
+  number={1},
+  year={2020}
+}
+
+@article{barnhart2004airline,
+  title={Airline schedule planning: accomplishment and opportunities},
+  author={Barnhart, Cynthia and Cohn, Amy},
+  journal={Manufacturing \& Service Operations Management},
+  volume={6},
+  number={1},
+  pages={3--22},
+  year={2004},
+  publisher={INFORMS}
+}
+@article{sun2015stochastic,
+  title={Stochastic capacity expansion models for airport facilities},
+  author={Sun, Yanshuo and Schonfeld, Paul},
+  journal={Transportation Research Part B: Methodological},
+  volume={80},
+  pages={1--18},
+  year={2015},
+  publisher={Elsevier}
+}
+@article{cao2022methods,
+  title={Methods for Forecasting Demand in Repairing an Airline’s Repairable Line Replaceable Unit Parts},
+  author={Cao, Yunchun and Liu, Yuzhan and Shen, Danyang},
+  journal={South African Journal of Industrial Engineering},
+  volume={33},
+  number={4},
+  pages={60--80},
+  year={2022},
+  publisher={South African Institute of Industrial Engineers (SAIIE)}
+}
+
+@article{senturk2018effects,
+  title={The effects of the use of single task-oriented maintenance concept and more accurate letter check alternatives on the reduction of scheduled maintenance downtime of aircraft},
+  author={Senturk, Caner and Ozkol, Ibrahim},
+  journal={International Journal of Mechanical Engineering and Robotics Research},
+  volume={7},
+  number={2},
+  pages={189--196},
+  year={2018}
+}
+
+
+@article{saltouglu2016aircraft,
+  title={Aircraft scheduled airframe maintenance and downtime integrated cost model},
+  author={Salto{\u{g}}lu, Remzi and Humaira, Nazmia and {\.I}nalhan, G{\"o}khan and others},
+  journal={Advances in Operations Research},
+  volume={2016},
+  year={2016},
+  publisher={Hindawi}
+}
+
+
+@article{glomb2022rolling,
+  title={A rolling-horizon approach for multi-period optimization},
+  author={Glomb, Lukas and Liers, Frauke and R{\"o}sel, Florian},
+  journal={European Journal of Operational Research},
+  volume={300},
+  number={1},
+  pages={189--206},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{furini2015improved,
+  title={Improved rolling horizon approaches to the aircraft sequencing problem},
+  author={Furini, Fabio and Kidd, Martin Philip and Persiani, Carlo Alfredo and Toth, Paolo},
+  journal={Journal of Scheduling},
+  volume={18},
+  pages={435--447},
+  year={2015},
+  publisher={Springer}
+}
+
+
+@techreport{van2013rolling,
+  title={A rolling horizon algorithm for an airline line maintenance scheduling problem},
+  author={Van den Bergh, Jorne and De Bruecker, Philippe and Beli{\"e}n, Jeroen and De Boeck, Liesje and Demeulemeester, Erik},
+  year={2013},
+  institution={Katholieke Universiteit Leuven}
+}
+
+
+
+@article{xie2019review,
+  title={Review on flexible job shop scheduling},
+  author={Xie, Jin and Gao, Liang and Peng, Kunkun and Li, Xinyu and Li, Haoran},
+  journal={IET collaborative intelligent manufacturing},
+  volume={1},
+  number={3},
+  pages={67--77},
+  year={2019},
+  publisher={Wiley Online Library}
+}
+
+
+@article{grose2018airline,
+  author = {Grose, Graham},
+  title = {Airline success quantified: The maintenance metrics and the math versus the misspend},
+  year = {2018},
+  url = {https://blog.ifs.com/2018/10/airline-success-quantified-the-maintenance-metrics-and-the-math-versus-the-misspend/},
+  note = "[Online; accessed November 11, 2024]",
+  journal = {IFS Blog}
+}
+
+
+
+@article{meissner2021developing,
+  title={Developing prescriptive maintenance strategies in the aviation industry based on a discrete-event simulation framework for post-prognostics decision making},
+  author={Meissner, Robert and Rahn, Antonia and Wicke, Kai},
+  journal={Reliability Engineering \& System Safety},
+  volume={214},
+  pages={107812},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+@article{ackert2010basics,
+  title={Basics of aircraft maintenance programs for financiers},
+  author={Ackert, Shannon P},
+  journal={Evaluation \& Insights of Commercial Aircraft Maintenance Programs},
+  volume={10},
+  year={2010}
+}
+
+
+@article{clarke1997aircraft,
+  title={The aircraft rotation problem},
+  author={Clarke, Lloyd and Johnson, Ellis and Nemhauser, George and Zhu, Zhongxi},
+  journal={Annals of Operations Research},
+  volume={69},
+  number={0},
+  pages={33--46},
+  year={1997},
+  publisher={Springer}
+}
+
+
+@article{fioriti2018cost,
+  title={Cost-estimating model for aircraft maintenance},
+  author={Fioriti, Marco and Vercella, Valeria and Viola, Nicole},
+  journal={Journal of Aircraft},
+  volume={55},
+  number={4},
+  pages={1564--1575},
+  year={2018},
+  publisher={American Institute of Aeronautics and Astronautics}
+}
+
+
+
+
+@techreport{iata2022mcx,
+  title        = {FY2022 MCX Report},
+  author       = {IATA},
+  year         = {2022},
+  institution  = {International Air Transport Association},
+  url          = {https://www.iata.org/contentassets/8437020db31a4717b70677d9b06b1a45/fy2022-mcx-report_public.pdf},
+  note         = "[Online; accessed November 11, 2024]"
+}
+
+
+@misc{iata2023pressrelease,
+  title        = {{IATA} Press Release, 2023-12-06},
+  author       = {IATA},
+  year         = {2023},
+  url          = {https://www.iata.org/en/pressroom/2023-releases/2023-12-06-01/},
+  note         = "[Online; accessed November 11, 2024]"
+}
+
+@misc{icao2019aircraft,
+    title        = {Introduction to Aircraft Maintenance Programs},
+    author       = {ICAO},
+    year         = {2019},
+    url = {https://www.icao.int/APAC/Meetings/2019%20COSCAP%20SEAEASA%20AIR/M20%20Aircraft%20Maintenance%20Programs.pdf},
+    note         = "[Online; accessed November 11, 2024]"
+}
+
+
+@article{temucin2021aircraft,
+  title={Aircraft maintenance routing problem--a literature survey},
+  author={Temucin, Tolga and Tuzkaya, Gulfem and Vayvay, Ozalp},
+  journal={Promet-Traffic\&Transportation},
+  volume={33},
+  number={4},
+  pages={491--503},
+  year={2021},
+  publisher={Sveu{\v{c}}ili{\v{s}}te u Zagrebu Fakultet prometnih znanosti}
+}
+
+
+@incollection{liang2009aircraft,
+  title={The aircraft maintenance routing problem},
+  author={Liang, Zhe and Chaovalitwongse, Wanpracha Art},
+  booktitle={Optimization and Logistics Challenges in the Enterprise},
+  pages={327--348},
+  year={2009},
+  publisher={Springer}
+}
+
+
+@article{ma2022tackling,
+  title={Tackling uncertainties in aircraft maintenance routing: A review of emerging technologies},
+  author={Ma, Hoi-Lam and Sun, Yige and Chung, Sai-Ho and Chan, Hing Kai},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={164},
+  pages={102805},
+  year={2022},
+  publisher={Elsevier}
+}
+
+@article{feo1989flight,
+  title={Flight scheduling and maintenance base planning},
+  author={Feo, Thomas A and Bard, Jonathan F},
+  journal={Management Science},
+  volume={35},
+  number={12},
+  pages={1415--1432},
+  year={1989},
+  publisher={INFORMS}
+}
+
+@article{eltoukhy2018model,
+  title={A model with a solution algorithm for the operational aircraft maintenance routing problem},
+  author={Eltoukhy, Abdelrahman EE and Chan, Felix TS and Chung, Sai Ho and Niu, Ben},
+  journal={Computers \& Industrial Engineering},
+  volume={120},
+  pages={346--359},
+  year={2018},
+  publisher={Elsevier}
+}
+
+@article{talluri1998four,
+  title={The four-day aircraft maintenance routing problem},
+  author={Talluri, Kalyan T},
+  journal={Transportation science},
+  volume={32},
+  number={1},
+  pages={43--53},
+  year={1998},
+  publisher={INFORMS}
+}
+
+@article{ruan2021reinforcement,
+  title={A reinforcement learning-based algorithm for the aircraft maintenance routing problem},
+  author={Ruan, JH and Wang, ZX and Chan, Felix TS and Patnaik, S and Tiwari, Manoj Kumar},
+  journal={Expert Systems with Applications},
+  volume={169},
+  pages={114399},
+  year={2021},
+  publisher={Elsevier}
+}
+
+
+@article{sanchez2020optimisation,
+  title={An optimisation framework for airline fleet maintenance scheduling with tail assignment considerations},
+  author={Sanchez, David Torres and Boyac{\i}, Burak and Zografos, Konstantinos G},
+  journal={Transportation Research Part B: Methodological},
+  volume={133},
+  pages={142--164},
+  year={2020},
+  publisher={Elsevier}
+}
+
+
+
+@article{sun2020nonprofit,
+  title={Nonprofit peer-to-peer ridesharing optimization},
+  author={Sun, Yanshuo and Chen, Zhi-Long and Zhang, Lei},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={142},
+  pages={102053},
+  year={2020},
+  publisher={Elsevier}
+}
+
+
+@article{saltzman2022multi,
+  title={The multi-day aircraft maintenance routing problem},
+  author={Saltzman, Robert M and Stern, Helman I},
+  journal={Journal of Air Transport Management},
+  volume={102},
+  pages={102224},
+  year={2022},
+  publisher={Elsevier}
+}
+
+
+@article{sama2013rolling,
+  title={Rolling horizon approach for aircraft scheduling in the terminal control area of busy airports},
+  author={Sam{\`a}, Marcella and D'Ariano, Andrea and Pacciarelli, Dario},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={60},
+  pages={140--155},
+  year={2013}
+}
+
+
+@article{lieder2016scheduling,
+  title={Scheduling aircraft take-offs and landings on interdependent and heterogeneous runways},
+  author={Lieder, Alexander and Stolletz, Raik},
+  journal={Transportation Research part E: Logistics and Transportation Review},
+  volume={88},
+  pages={167--188},
+  year={2016},
+  publisher={Elsevier}
+}
+
+
+@article{diao2018sequence,
+  title={A sequence model for air traffic flow management rerouting problem},
+  author={Diao, Xudong and Chen, Chun-Hsien},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={110},
+  pages={15--30},
+  year={2018},
+  publisher={Elsevier}
+}
+
+
+@article{sciau2024using,
+  title={Using constraint programming to address the operational aircraft line maintenance scheduling problem},
+  author={Sciau, Jean-Baptiste and Goyon, Agathe and Sarazin, Alexandre and Bascans, J{\'e}r{\'e}my and Prud’homme, Charles and Lorca, Xavier},
+  journal={Journal of Air Transport Management},
+  volume={115},
+  pages={102537},
+  year={2024},
+  publisher={Elsevier}
+}
+
+
+
+@article{he2023maximizing,
+  title={Maximizing robustness of aircraft routing with heterogeneous maintenance tasks},
+  author={He, Yonghuan and Ma, Hoi-Lam and Park, Woo-Yong and Liu, Shi Qiang and Chung, Sai-Ho},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={177},
+  pages={103237},
+  year={2023},
+  publisher={Elsevier}
+}
+
+
+@article{kenan2018integrated,
+  title={The integrated aircraft routing problem with optional flights and delay considerations},
+  author={Kenan, Nabil and Jebali, Aida and Diabat, Ali},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={118},
+  pages={355--375},
+  year={2018},
+  publisher={Elsevier}
+}
+
+
+@article{wang2024collaboration,
+  title={Collaboration and resource sharing in the multidepot time-dependent vehicle routing problem with time windows},
+  author={Wang, Yong and Wei, Zikai and Luo, Siyu and Zhou, Jingxin and Zhen, Lu},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={192},
+  pages={103798},
+  year={2024},
+  publisher={Elsevier}
+}
+
+
+@article{chen2024resource,
+  title={Resource-constrained project scheduling with multiple states: Bi-objective optimization model and case study of aircraft maintenance},
+  author={Chen, Gang and He, Wen and Tian, Yu and Ma, Ke},
+  journal={Computers \& Industrial Engineering},
+  volume={191},
+  pages={110169},
+  year={2024},
+  publisher={Elsevier}
+}
+
+@article{villafranca2025aircraft,
+  title={Aircraft maintenance scheduling under uncertain task processing time},
+  author={Villafranca, Mat{\'\i}as and Delgado, Felipe and Klapp, Mathias},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={196},
+  pages={104012},
+  year={2025},
+  publisher={Elsevier}
+}
+
+
+@article{wang2025airport,
+  title={Airport slot allocation with low-carbon consideration},
+  author={Wang, Yiqun and Ni, Yaodong},
+  journal={Transportation Research Part E: Logistics and Transportation Review},
+  volume={196},
+  pages={104009},
+  year={2025},
+  publisher={Elsevier}
+}
